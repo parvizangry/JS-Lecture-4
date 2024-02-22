@@ -234,23 +234,6 @@ ___
 
 
 ___
-```
-// Example 1: If start > end, substring() swaps them, slice() returns an empty string
-let str = "Hello, world!";
-let sub1 = str.substring(5, 0); // sub1 is "Hello"
-let sub2 = str.slice(5, 0); // sub2 is ""
-
-// Example 2: If start or end is negative, substring() treats it as zero, slice() counts from the end
-let sub3 = str.substring(-3, 7); // sub3 is "Hello, "
-let sub4 = str.slice(-3, 7); // sub4 is ""
-
-// Example 3: If start or end is greater than the length, both methods use the length as the limit
-let sub5 = str.substring(7, 15); // sub5 is "world!"
-let sub6 = str.slice(7, 15); // sub6 is "world!"
-
-```
-
-___
 
 # Java Script method `toLowerCase()`
 
