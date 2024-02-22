@@ -65,7 +65,7 @@ arr.length = 6; // arr is [1, 2, 3, empty, empty, empty]
 ___
 
 # Java Script method `at()`
-## The `at()` method takes an integer value and returns a new String. This method allows allows for positive and negative integers. Negative integers count back from the last string character.
+## The `at()` method takes an integer value and returns a new String. This method allows for positive and negative integers. Negative integers count back from the last string character.
 
 ```
 let arr = [1, 2, 3, 4, 5];
@@ -96,7 +96,7 @@ ___
 # Java Script method `replace()`
 ## The `replace()` method returns a new string with the value (s) replaced.
 ## The `replace()` method searches a string for a value or a regular expression.
-## The `replace()` methos does not change the original string
+## The `replace()` method does not change the original string
 
 ```
 let text = "Visit Istanbul";
@@ -303,7 +303,7 @@ let result = arr.includes(3); // result is true
 
 ___
 
-# Java Scriot method `toString()`
+# Java Script method `toString()`
 
 ## The `toString()` method retrurns a string representing the object. By default `toString()` takes no parameters
 
